@@ -19,9 +19,11 @@ params:
     title: Shipwright Docs
     themeColor: blue
     darkMode: true
+    prism: true
     repoURL: "https://github.com/shipwright-io/"
     repoBranch: main
     lastMod: true
+    toc: true
 
 menus:
   primary:
@@ -29,7 +31,7 @@ menus:
       url: /docs/
       weight: 1
     - name: Blog
-      url: /blog/
+      url: /docs/blog/
       weight: 2
     - name: Community
       url: "https://github.com/shipwright-io/community?tab=readme-ov-file#welcome-to-project-shipwright"

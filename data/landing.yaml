@@ -1,0 +1,146 @@
+# Hero
+hero:
+  enable: true
+  weight: 10
+  template: hero
+
+  backgroundImage:
+    path: "images/templates/hero"
+    filename:
+      desktop: "gradient-desktop.webp"
+      mobile: "gradient-mobile.webp"
+
+  badge:
+    text: v0.16.0
+    color: primary # primary, secondary, success, danger, warning, info, light, dark
+    pill: false # boolean
+    soft: true # boolean
+
+  title: "shipwright.io"
+  subtitle: |
+    an extensible framework for building container images on Kubernetes. Define your build strategies to build your container images using popular tools such as **Kaniko**, **Cloud Native Buildpacks**, **Buildah** and more.
+
+  image: # under
+    path: "images" # path to image under configured assets directory. default 'images'
+    filename: "hero-shipwright-medium.png" # filename of your hero image (including file extension)
+    alt: "shipwright.io hero" # Optional but recommended
+    boxShadow: true # default 'false' (excludes .svg images)
+    rounded: true # round the image corners? default 'false' (excludes .svg images)
+
+  ctaButton:
+    icon: rocket_launch
+    btnText: "Get Started"
+    url: "/docs/quickstart/#create-a-new-lotus-docs-site"
+  cta2Button:
+    icon: article
+    btnText: "Blog"
+    url: "https://github.com/colinwilson/lotusdocs"
+
+  info: "**Open Source** Apache License 2.0."
+
+featureGrid:
+  enable: true
+  weight: 20
+  template: feature grid
+
+  title: Why shipwright.io?
+  subtitle: |
+    Shipwright is based around 4 elements for each build
+  items:
+    - title: Source code
+      icon: code
+      description: "the **WHAT** you are building."
+      ctaLink:
+        text: learn more
+    - title: "" # empty colum
+    - title: Output image
+      icon: place
+      description: "the **WHERE** your application is delivered"
+      ctaLink:
+        text: learn more
+    - title: Build strategy
+      icon: rule
+      description: "the **HOW** your application is assembled"
+      ctaLink:
+        text: learn more
+    - title: "" # empty colum
+    - title: Invocation
+      icon: schedule
+      description: "the **WHEN** to build your application"
+      ctaLink:
+        text: learn more
+
+imageCompare:
+  enable: false
+
+imageText1:
+  enable: true
+  weight: 40
+  template: image text
+  title: "1. Choose the Build strategy"
+  subtitle: bla bla bla
+  list:
+    - text: Blazing fast page loads
+      icon: speed
+    - text: Sensible default SEO friendly settings
+      icon: area_chart
+    - text: Designed to be accessible
+      icon: accessibility
+  ctaButton:
+    text: Learn more
+    url: docs/
+  image:
+    path: "images"
+    filename: "kaniko-logo.png"
+    alt: "kaniko logo"
+  imgOrder:
+    desktop: 2
+    mobile: 1
+    
+imageText2:
+  enable: true
+  weight: 50
+  template: image text
+  title: "2. Configure your Build"
+  subtitle: bla bla bla
+  list:
+    - text: Blazing fast page loads
+      icon: speed
+    - text: Sensible default SEO friendly settings
+      icon: area_chart
+    - text: Designed to be accessible
+      icon: accessibility
+  ctaButton:
+    text: Learn more
+    url: docs/
+  image:
+    path: "images"
+    filename: "kaniko-logo.png"
+    alt: "kaniko logo"
+  imgOrder:
+    desktop: 1
+    mobile: 2
+    
+imageText3:
+  enable: true
+  weight: 60
+  template: image text
+  title: "3. Run it!"
+  subtitle: bla bla bla
+  list:
+    - text: Blazing fast page loads
+      icon: speed
+    - text: Sensible default SEO friendly settings
+      icon: area_chart
+    - text: Designed to be accessible
+      icon: accessibility
+  ctaButton:
+    text: Learn more
+    url: docs/
+  image:
+    path: "images"
+    filename: "kaniko-logo.png"
+    alt: "kaniko logo"
+  imgOrder:
+    desktop: 2
+    mobile: 1

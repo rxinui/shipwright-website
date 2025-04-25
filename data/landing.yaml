@@ -20,7 +20,6 @@ hero:
   subtitle: |
     an extensible framework for building container images on Kubernetes. Define your build strategies to build your container images using popular tools such as **Kaniko**, **Cloud Native Buildpacks**, **Buildah** and more.
   info: "**Open Source** Apache License 2.0."
-
   image: # under
     path: "images" # path to image under configured assets directory. default 'images'
     filename: "hero-zenburn-white-small.svg" # filename of your hero image (including file extension)
@@ -38,8 +37,6 @@ hero:
     btnText: "Blog"
     url: "https://github.com/colinwilson/lotusdocs"
 
-  
-
 featureGrid:
   enable: true
   weight: 20
@@ -47,52 +44,34 @@ featureGrid:
 
   title: Why shipwright.io?
   subtitle: |
-    Shipwright.io provides a straightforward approach to building container images by defining a minimal YAML configuration for developers, by developers.
-  # items:
-  #   - title: Source code
-  #     icon: code
-  #     description: "the **WHAT** you are building."
-  #     ctaLink:
-  #       text: learn more
-  #   - title: "" # empty colum
-  #   - title: Output image
-  #     icon: place
-  #     description: "the **WHERE** your application is delivered"
-  #     ctaLink:
-  #       text: learn more
-  #   - title: Build strategy
-  #     icon: rule
-  #     description: "the **HOW** your application is assembled"
-  #     ctaLink:
-  #       text: learn more
-  #   - title: "" # empty colum
-  #   - title: Invocation
-  #     icon: schedule
-  #     description: "the **WHEN** to build your application"
-  #     ctaLink:
-  #       text: learn more
+    Shipwright.io provides a straightforward approach to build container images of your code **within your Kubernetes cluster** by defining a minimal YAML configuration.
   items:
-    - title: Source code
-      icon: code
-      description: |
-        
+    - title: Flexibility and Extensibility
+      icon: checklist_rtl
+
+      description:
+        "Shipwright.io supports a variety of build tools including Kaniko. This
+        flexibility allows you to choose the tool that best fits your project’s
+        requirements, ensuring that you can leverage the strengths of different
+        build strategies."
       ctaLink:
         text: learn more
-    - title: "" # empty colum
-    - title: Output image
-      icon: place
-      description: "the **WHERE** your application is delivered"
+    - title: Simplified Configuration
+      icon: build
+      description:
+        "`BuildStrategy` enables developers to define their build processes
+        using a minimal YAML configuration. This approach abstract the knowledge
+        of container tooling for the developers, making it accessible even for
+        those new to container technologies"
       ctaLink:
         text: learn more
-    - title: Build strategy
-      icon: rule
-      description: "the **HOW** your application is assembled"
-      ctaLink:
-        text: learn more
-    - title: "" # empty colum
-    - title: Invocation
-      icon: schedule
-      description: "the **WHEN** to build your application"
+    - title: Integration with Kubernetes
+      icon: mediation
+      description:
+        "By integrating seamlessly with Kubernetes, BuildStrategy ensures that
+        your build processes are **scalable and reliable**. This integration
+        allows you to take advantage of Kubernetes’ orchestration capabilities,
+        ensuring efficient and robust container image builds"
       ctaLink:
         text: learn more
 
@@ -103,22 +82,24 @@ imageText1:
   enable: true
   weight: 40
   template: image text
-  title: "1. Choose the Build strategy"
-  subtitle: bla bla bla
+  title: "1. Describe your strategy"
+  subtitle:
+    "Create a `BuildStrategy` that specifies the build tool and parameters you
+    want to use. This file defines how your container images are built."
   list:
-    - text: Blazing fast page loads
-      icon: speed
-    - text: Sensible default SEO friendly settings
-      icon: area_chart
-    - text: Designed to be accessible
-      icon: accessibility
+    - text: Multiple build tools supported
+      icon: grain
+    - text: Extensible and customisable
+      icon: auto_awesome
+    - text: Scope to namespace or cluster-wide
+      icon: filter_center_focus
   ctaButton:
     text: Learn more
     url: docs/
   image:
     path: "images"
-    filename: "kaniko-logo.png"
-    alt: "kaniko logo"
+    filename: "step1.png"
+    alt: "step1"
   imgOrder:
     desktop: 2
     mobile: 1
@@ -127,22 +108,24 @@ imageText2:
   enable: true
   weight: 50
   template: image text
-  title: "2. Configure your Build"
-  subtitle: bla bla bla
+  title: "2. Configure your build"
+  subtitle:
+    "Create a `Build` that links your `BuildStrategy` and declare additional
+    parameters specific to the cluster or the build itself."
   list:
-    - text: Blazing fast page loads
-      icon: speed
-    - text: Sensible default SEO friendly settings
-      icon: area_chart
-    - text: Designed to be accessible
-      icon: accessibility
+    - text: Declare the output
+      icon: publish
+    - text: Select the build strategy
+      icon: format_list_numbered
+    - text: Indicate the source code
+      icon: code
   ctaButton:
     text: Learn more
     url: docs/
   image:
     path: "images"
-    filename: "kaniko-logo.png"
-    alt: "kaniko logo"
+    filename: "step2.svg"
+    alt: "step2"
   imgOrder:
     desktop: 1
     mobile: 2
@@ -151,22 +134,17 @@ imageText3:
   enable: true
   weight: 60
   template: image text
-  title: "3. Run it!"
-  subtitle: bla bla bla
+  title: "3. Ship it!"
+  subtitle: Run the build to ship your container images to your registries.
   list:
-    - text: Blazing fast page loads
-      icon: speed
-    - text: Sensible default SEO friendly settings
-      icon: area_chart
-    - text: Designed to be accessible
-      icon: accessibility
+
   ctaButton:
     text: Learn more
     url: docs/
   image:
     path: "images"
-    filename: "kaniko-logo.png"
-    alt: "kaniko logo"
+    filename: "step3.svg"
+    alt: "step3"
   imgOrder:
     desktop: 2
     mobile: 1

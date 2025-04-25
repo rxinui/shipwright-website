@@ -23,7 +23,8 @@ hero:
 
   image: # under
     path: "images" # path to image under configured assets directory. default 'images'
-    filename: "hero-shipwright-medium.png" # filename of your hero image (including file extension)
+    filename: "hero-zenburn-white-small.svg" # filename of your hero image (including file extension)
+    # filename: "hero-shipwright-medium.png" # filename of your hero image (including file extension)
     alt: "shipwright.io hero" # Optional but recommended
     boxShadow: true # default 'false' (excludes .svg images)
     rounded: true # round the image corners? default 'false' (excludes .svg images)

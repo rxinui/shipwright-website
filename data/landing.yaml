@@ -5,9 +5,9 @@ hero:
   template: hero
 
   backgroundImage:
-    path: "images/templates/hero"
+    path: "images"
     filename:
-      desktop: "gradient-desktop.webp"
+      desktop: "bg.png"
       mobile: "gradient-mobile.webp"
 
   badge:
@@ -19,6 +19,7 @@ hero:
   title: "shipwright.io"
   subtitle: |
     an extensible framework for building container images on Kubernetes. Define your build strategies to build your container images using popular tools such as **Kaniko**, **Cloud Native Buildpacks**, **Buildah** and more.
+  info: "**Open Source** Apache License 2.0."
 
   image: # under
     path: "images" # path to image under configured assets directory. default 'images'
@@ -30,13 +31,13 @@ hero:
   ctaButton:
     icon: rocket_launch
     btnText: "Get Started"
-    url: "/docs/quickstart/#create-a-new-lotus-docs-site"
+    url: "/docs/example" # always omit .md
   cta2Button:
     icon: article
     btnText: "Blog"
     url: "https://github.com/colinwilson/lotusdocs"
 
-  info: "**Open Source** Apache License 2.0."
+  
 
 featureGrid:
   enable: true
@@ -45,11 +46,35 @@ featureGrid:
 
   title: Why shipwright.io?
   subtitle: |
-    Shipwright is based around 4 elements for each build
+    Shipwright.io provides a straightforward approach to building container images by defining a minimal YAML configuration for developers, by developers.
+  # items:
+  #   - title: Source code
+  #     icon: code
+  #     description: "the **WHAT** you are building."
+  #     ctaLink:
+  #       text: learn more
+  #   - title: "" # empty colum
+  #   - title: Output image
+  #     icon: place
+  #     description: "the **WHERE** your application is delivered"
+  #     ctaLink:
+  #       text: learn more
+  #   - title: Build strategy
+  #     icon: rule
+  #     description: "the **HOW** your application is assembled"
+  #     ctaLink:
+  #       text: learn more
+  #   - title: "" # empty colum
+  #   - title: Invocation
+  #     icon: schedule
+  #     description: "the **WHEN** to build your application"
+  #     ctaLink:
+  #       text: learn more
   items:
     - title: Source code
       icon: code
-      description: "the **WHAT** you are building."
+      description: |
+        
       ctaLink:
         text: learn more
     - title: "" # empty colum
@@ -96,7 +121,7 @@ imageText1:
   imgOrder:
     desktop: 2
     mobile: 1
-    
+
 imageText2:
   enable: true
   weight: 50
@@ -120,7 +145,7 @@ imageText2:
   imgOrder:
     desktop: 1
     mobile: 2
-    
+
 imageText3:
   enable: true
   weight: 60

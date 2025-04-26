@@ -102,7 +102,7 @@ imageText1:
     alt: "step1"
   imgOrder:
     desktop: 2
-    mobile: 1
+    mobile: 2
 
 imageText2:
   enable: true
@@ -147,4 +147,4 @@ imageText3:
     alt: "step3"
   imgOrder:
     desktop: 2
-    mobile: 1
+    mobile: 2

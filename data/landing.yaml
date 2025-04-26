@@ -11,10 +11,10 @@ hero:
       mobile: "bg.png"
 
   badge:
-    text: v0.16.0
-    color: primary # primary, secondary, success, danger, warning, info, light, dark
-    pill: false # boolean
-    soft: true # boolean
+    text: "v0.15.0"
+    color: dark # primary, secondary, success, danger, warning, info, light, dark
+    pill: true # boolean
+    soft: false # boolean
 
   titleLogo:
     path: "images"
@@ -23,8 +23,10 @@ hero:
     height: 80px
 
   title: "shipwright.io"
-  subtitle: |
-    an extensible framework for building container images on Kubernetes. Define your build strategies to build your container images using popular tools such as **Kaniko**, **Cloud Native Buildpacks**, **Buildah** and more.
+  subtitle:
+    "An extensible framework for building container images on Kubernetes. Define
+    your build strategies to build your container images using popular tools
+    such as **Kaniko**, **Cloud Native Buildpacks**, **Buildah** and more."
   info: "**Open Source** Apache License 2.0."
   image: # under
     path: "images" # path to image under configured assets directory. default 'images'
@@ -48,8 +50,10 @@ featureGrid:
   template: feature grid
 
   title: Why shipwright.io?
-  subtitle: |
-    Shipwright.io provides a straightforward approach to build container images of your code **within your Kubernetes cluster** by defining a minimal YAML configuration.
+  subtitle:
+    "Shipwright.io provides a straightforward approach to build container images
+    of your code **within your Kubernetes cluster** by defining a minimal YAML
+    configuration."
   items:
     - title: Flexibility and Extensibility
       icon: checklist_rtl
@@ -67,7 +71,7 @@ featureGrid:
         "`BuildStrategy` enables developers to define their build processes
         using a minimal YAML configuration. This approach abstract the knowledge
         of container tooling for the developers, making it accessible even for
-        those new to container technologies"
+        those new to container technologies."
       ctaLink:
         text: learn more
     - title: Integration with Kubernetes
@@ -76,7 +80,7 @@ featureGrid:
         "By integrating seamlessly with Kubernetes, BuildStrategy ensures that
         your build processes are **scalable and reliable**. This integration
         allows you to take advantage of Kubernetes’ orchestration capabilities,
-        ensuring efficient and robust container image builds"
+        ensuring efficient and robust container image builds."
       ctaLink:
         text: learn more
 
@@ -103,7 +107,7 @@ imageText1:
     url: docs/
   image:
     path: "images"
-    filename: "step1.png"
+    filename: "step1.svg"
     alt: "step1"
   imgOrder:
     desktop: 2
@@ -140,7 +144,7 @@ imageText3:
   weight: 60
   template: image text
   title: "3. Ship it!"
-  subtitle: Run the build to ship your container images to your registries.
+  subtitle: "Run the build to ship your container images to your registries."
   list:
 
   ctaButton:

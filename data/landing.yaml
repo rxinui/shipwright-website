@@ -1,4 +1,6 @@
-# Hero
+###
+# Hero - landing page
+###
 hero:
   enable: true
   weight: 10
@@ -45,6 +47,9 @@ hero:
     btnText: "Blog"
     url: "https://github.com/colinwilson/lotusdocs"
 
+###
+# Features of shipwright
+###
 featureGrid:
   enable: true
   weight: 20
@@ -58,14 +63,13 @@ featureGrid:
   items:
     - title: Flexibility and Extensibility
       icon: checklist_rtl
-
       description:
         "Shipwright.io supports a variety of build tools including Kaniko. This
         flexibility allows you to choose the tool that best fits your project’s
         requirements, ensuring that you can leverage the strengths of different
         build strategies."
-      ctaLink:
-        text: learn more
+      # ctaLink:
+      #   text: Learn more
     - title: Simplified Configuration
       icon: build
       description:
@@ -73,8 +77,8 @@ featureGrid:
         using a minimal YAML configuration. This approach abstract the knowledge
         of container tooling for the developers, making it accessible even for
         those new to container technologies."
-      ctaLink:
-        text: learn more
+      # ctaLink:
+      #   text: Learn more
     - title: Integration with Kubernetes
       icon: mediation
       description:
@@ -82,12 +86,15 @@ featureGrid:
         your build processes are **scalable and reliable**. This integration
         allows you to take advantage of Kubernetes’ orchestration capabilities,
         ensuring efficient and robust container image builds."
-      ctaLink:
-        text: learn more
+      # ctaLink:
+      #   text: Learn more
 
 imageCompare:
   enable: false
 
+###
+# Describe `BuildStrategy`
+###
 imageText1:
   enable: true
   weight: 40
@@ -105,7 +112,7 @@ imageText1:
       icon: filter_center_focus
   ctaButton:
     text: Learn more
-    url: docs/
+    url: docs/build/buildstrategies/
   image:
     path: "images"
     filename: "step1.svg"
@@ -114,6 +121,9 @@ imageText1:
     desktop: 2
     mobile: 2
 
+###
+# Describe `Build`
+###
 imageText2:
   enable: true
   weight: 50
@@ -131,7 +141,7 @@ imageText2:
       icon: code
   ctaButton:
     text: Learn more
-    url: docs/
+    url: docs/build/build/
   image:
     path: "images"
     filename: "step2.svg"
@@ -139,7 +149,9 @@ imageText2:
   imgOrder:
     desktop: 1
     mobile: 2
-
+###
+# Describe `BuildRun`
+###
 imageText3:
   enable: true
   weight: 60
@@ -150,7 +162,7 @@ imageText3:
 
   ctaButton:
     text: Learn more
-    url: docs/
+    url: docs/build/buildrun/
   image:
     path: "images"
     filename: "step3.svg"

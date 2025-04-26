@@ -7,8 +7,8 @@ hero:
   backgroundImage:
     path: "images"
     filename:
-      desktop: "bg.png"
-      mobile: "bg.png"
+      desktop: "bg2.png"
+      mobile: "bg2.png"
 
   badge:
     text: "v0.15.0"
@@ -30,6 +30,7 @@ hero:
   info: "**Open Source** Apache License 2.0."
   image: # under
     path: "images" # path to image under configured assets directory. default 'images'
+    # filename: "hero.png" # filename of your hero image (including file extension)
     filename: "hero-zenburn-white-small.svg" # filename of your hero image (including file extension)
     alt: "shipwright.io hero" # Optional but recommended
     boxShadow: false # default 'false' (excludes .svg images)

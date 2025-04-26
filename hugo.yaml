@@ -22,10 +22,12 @@ params:
     themeColor: blue
     darkMode: true
     prism: true
-    repoURL: "https://github.com/shipwright-io/"
+    repoURL: "https://github.com/shipwright-io/website"
+    editPage: true
     repoBranch: main
     lastMod: true
     toc: true
+    logoLinkURL: "" # to define
 
 menus:
   primary:

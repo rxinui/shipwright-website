@@ -3,7 +3,6 @@ title: "Introduction"
 linkTitle: "intro"
 weight: 1
 ---
-
 Shipwright is an extensible framework for building container images on Kubernetes.
 
 Shipwright supports popular tools such as Kaniko, Cloud Native Buildpacks, Buildah, and more!

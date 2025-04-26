@@ -8,13 +8,19 @@ hero:
     path: "images"
     filename:
       desktop: "bg.png"
-      mobile: "gradient-mobile.webp"
+      mobile: "bg.png"
 
   badge:
     text: v0.16.0
     color: primary # primary, secondary, success, danger, warning, info, light, dark
     pill: false # boolean
     soft: true # boolean
+
+  titleLogo:
+    path: "images"
+    filename: "shipwright-stacked-color-notext.png"
+    alt: "Shipwright Lotus docs"
+    height: 80px
 
   title: "shipwright.io"
   subtitle: |
@@ -23,10 +29,9 @@ hero:
   image: # under
     path: "images" # path to image under configured assets directory. default 'images'
     filename: "hero-zenburn-white-small.svg" # filename of your hero image (including file extension)
-    # filename: "hero-shipwright-medium.png" # filename of your hero image (including file extension)
     alt: "shipwright.io hero" # Optional but recommended
-    boxShadow: true # default 'false' (excludes .svg images)
-    rounded: true # round the image corners? default 'false' (excludes .svg images)
+    boxShadow: false # default 'false' (excludes .svg images)
+    rounded: false # round the image corners? default 'false' (excludes .svg images)
 
   ctaButton:
     icon: rocket_launch

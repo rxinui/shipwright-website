@@ -41,11 +41,11 @@ hero:
   ctaButton:
     icon: rocket_launch
     btnText: "Get Started"
-    url: "/docs/example" # always omit .md
+    url: "docs/getting-started/installation/" # always omit .md
   cta2Button:
     icon: article
     btnText: "Blog"
-    url: "https://github.com/colinwilson/lotusdocs"
+    url: "docs/blog/"
 
 ###
 # Features of shipwright

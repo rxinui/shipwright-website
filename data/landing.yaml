@@ -32,8 +32,8 @@ hero:
   info: "**Open Source** Apache License 2.0."
   image: # under
     path: "images" # path to image under configured assets directory. default 'images'
-    # filename: "hero.png" # filename of your hero image (including file extension)
-    filename: "hero-zenburn-white-small.svg" # filename of your hero image (including file extension)
+    filename: "codye.png" # filename of your hero image (including file extension)
+    # filename: "hero-zenburn-white-small.svg" # filename of your hero image (including file extension)
     alt: "shipwright.io hero" # Optional but recommended
     boxShadow: false # default 'false' (excludes .svg images)
     rounded: false # round the image corners? default 'false' (excludes .svg images)
@@ -115,7 +115,7 @@ imageText1:
     url: docs/build/buildstrategies/
   image:
     path: "images"
-    filename: "step1.svg"
+    filename: "step1.png"
     alt: "step1"
   imgOrder:
     desktop: 2
@@ -144,10 +144,10 @@ imageText2:
     url: docs/build/build/
   image:
     path: "images"
-    filename: "step2.svg"
+    filename: "step2.png"
     alt: "step2"
   imgOrder:
-    desktop: 1
+    desktop: 2
     mobile: 2
 ###
 # Describe `BuildRun`
@@ -165,7 +165,7 @@ imageText3:
     url: docs/build/buildrun/
   image:
     path: "images"
-    filename: "step3.svg"
+    filename: "step3.png"
     alt: "step3"
   imgOrder:
     desktop: 2

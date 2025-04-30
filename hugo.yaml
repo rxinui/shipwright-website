@@ -1,4 +1,4 @@
-baseURL: https://shipwright.io/
+# baseURL: https://shipwright.io/
 languageCode: en-us
 title: shipwright.io
 module:

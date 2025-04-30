@@ -14,10 +14,8 @@ api-gen/build/
 
 # IDEs
 .vscode
-# Generated files by hugo
-/public/
-/resources/_gen/
-/assets/jsconfig.json
+
+assets/jsconfig.json
 hugo_stats.json
 
 # Executable may be added to repository
@@ -26,6 +24,6 @@ hugo.darwin
 hugo.linux
 
 # Temporary lock file while building
-/.hugo_build.lock
-/themes/**
-.DS_Store**
+.hugo_build.lock
+themes/**
+.DS_Store

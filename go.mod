@@ -1,4 +1,4 @@
-module shipwright-web2
+module github.com/shipwright-io/website
 
 go 1.24.2
 

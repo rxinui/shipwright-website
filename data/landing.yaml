@@ -24,7 +24,7 @@ hero:
     alt: "Shipwright Lotus docs"
     height: 80px
 
-  title: "shipwright.io"
+  title: "shipwright"
   subtitle:
     "An extensible framework for building container images on Kubernetes. Define
     your build strategies to build your container images using popular tools
@@ -55,7 +55,7 @@ featureGrid:
   weight: 20
   template: feature grid
 
-  title: Why shipwright.io?
+  title: Why shipwright?
   subtitle:
     "Shipwright.io provides a straightforward approach to build container images
     of your code **within your Kubernetes cluster** by defining a minimal YAML

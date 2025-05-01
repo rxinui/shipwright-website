@@ -133,12 +133,12 @@ imageText2:
     "Create a `Build` that links your `BuildStrategy` and declare additional
     parameters specific to the cluster or the build itself."
   list:
-    - text: Declare the output
-      icon: publish
-    - text: Select the build strategy
-      icon: format_list_numbered
     - text: Indicate the source code
       icon: code
+    - text: Select the build strategy
+      icon: format_list_numbered
+    - text: Declare the output
+      icon: publish
   ctaButton:
     text: Learn more
     url: docs/build/build/

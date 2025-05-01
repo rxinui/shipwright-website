@@ -49,20 +49,21 @@ The `Build` object provides a playbook on how to assemble your specific applicat
 build consists of a git source, a build strategy, and an output image:
 
 ```yaml
-apiVersion: build.dev/v1alpha1
+apiVersion: shipwright.io/v1beta1
 kind: Build
 metadata:
   name: kaniko-golang-build
-  annotations:
-    build.build.dev/build-run-deletion: "true"
 spec:
   source:
-    url: https://github.com/sbose78/taxi
+    type: Git
+    git:
+      url: url: https://github.com/shipwright-io/sample-go
+    contextDir: docker-build
   strategy:
     name: kaniko
     kind: ClusterBuildStrategy
   output:
-    image: registry.mycompany.com/my-org/taxi-app:latest
+    image: registry.mycompany.com/my-org/sample-image:latest
 ```
 
 Builds can be extended to push to private registries, use a different Dockerfile, and more.
@@ -80,7 +81,7 @@ Dockerfile within a container:
 ```yaml
 # this is a fragment of a manifest
 spec:
-  buildSteps:
+  steps:
     - name: build-and-push
       image: gcr.io/kaniko-project/executor:v1.3.0
       workingDir: /workspace/source
